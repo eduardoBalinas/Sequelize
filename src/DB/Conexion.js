@@ -13,3 +13,5 @@ sequelize
     .then(() => {
         console.log('La base de datos esta bien');
     });
+
+module.exports = sequelize;
